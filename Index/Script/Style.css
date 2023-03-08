@@ -1,0 +1,138 @@
+body {
+    font-family: 'Bebas Neue', cursive;
+    background-color: rgb(202, 202, 202);
+    margin: 0px;
+}
+
+/* NAVBAR */
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #333;
+}
+  
+li {
+    float: left;
+}
+  
+li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 10px 16px;
+    text-decoration: none;
+    font-size: 24px;
+}
+  
+li a:hover {
+      background-color: #111;
+      color: tomato;
+}
+    
+button {
+    float: right;
+    border: none;
+    text-align: center;
+    font-size: 14px;
+    font-weight: bold;
+    margin-top: 15px;
+    margin-right: 25px;
+    background-color: white;
+    border-radius: 20px;
+}
+
+button:hover {
+    cursor: pointer;
+    background-color: tomato;
+    color: white;
+    transition: .2s;
+}
+
+/* CONTAINER */
+.container {
+}
+h1 {
+    font-weight: bold;
+}
+
+.about-us {
+    padding-left : 20px;
+    padding: 10px 10px;
+    margin-left: 30px;
+    width: 100%;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+}
+
+.about-us h1 {
+    border-left: 2px solid #333;
+    font-size: 40px;
+    padding: 5px;
+}
+
+.our-teams {
+    margin-left: -90px;
+    margin-top: 10px;
+    margin-bottom: 20px;
+    margin-right: -90px;
+    padding: 30px;
+    background-color: #F34556;
+}
+
+.our-teams h1 {
+    color: white;
+    border-bottom: 2px solid rgb(0, 0, 0);
+}
+
+/* CONTAINER TEAM */
+.yumna {
+    margin-top: 5vh;
+    width: 40vh;
+    padding-left: 10px;
+    border-right: 1px solid rgb(0, 0, 0);
+    color: white;
+}
+
+.sandy {
+    position: relative;
+    width: 40vh;
+    left: 43vh;
+    bottom: 16vh;
+    margin-bottom: -160px;
+    color: white;
+}
+
+.about-us h1:hover {
+    color: tomato;
+    cursor: default;
+}
+
+/* CONTAINER SCHOOL */
+.school {
+    margin-top: 100px;
+    margin-bottom: 10px;
+    margin-left: -30px;
+}
+.school h1 {
+    border-left: 4px solid red;
+    padding: 10px;
+    font-weight: bold;
+}
+.school img {
+    width: 50%;
+}
+.school h3 {
+    border-bottom: 2px solid black;
+    position: relative;
+    width: 40vh;
+    left: 43vh;
+    top:4vh;
+}
+.school p {
+    position: relative;
+    width: 40vh;
+    left: 43vh;
+    bottom: 20vh;
+}
